@@ -17,7 +17,7 @@ int thirdNumber = number % 1000 / 100;
 int fourNumber = number % 100 /10;
 int fiveNumber = number % 10;
 
-if(firstNumber = fiveNumber && secondNumber = fourNumber)
+if(firstNumber == fiveNumber && secondNumber == fourNumber)
 {
     Console.WriteLine($"{number}"+"- является палиндромом");
     return;
